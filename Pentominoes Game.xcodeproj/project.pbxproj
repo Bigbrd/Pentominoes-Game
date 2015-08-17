@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33CC72C19D21941007C0F00 /* Board0.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71319D21941007C0F00 /* Board0.png */; };
+		C33CC72D19D21941007C0F00 /* Board0button.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71419D21941007C0F00 /* Board0button.png */; };
+		C33CC72E19D21941007C0F00 /* Board1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71519D21941007C0F00 /* Board1@2x.png */; };
+		C33CC72F19D21941007C0F00 /* Board1button.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71619D21941007C0F00 /* Board1button.png */; };
+		C33CC73019D21941007C0F00 /* Board2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71719D21941007C0F00 /* Board2@2x.png */; };
+		C33CC73119D21941007C0F00 /* Board2button.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71819D21941007C0F00 /* Board2button.png */; };
+		C33CC73219D21941007C0F00 /* Board3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71919D21941007C0F00 /* Board3@2x.png */; };
+		C33CC73319D21941007C0F00 /* Board3button.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71A19D21941007C0F00 /* Board3button.png */; };
+		C33CC73419D21941007C0F00 /* Board4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71B19D21941007C0F00 /* Board4@2x.png */; };
+		C33CC73519D21941007C0F00 /* Board4button.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71C19D21941007C0F00 /* Board4button.png */; };
+		C33CC73619D21941007C0F00 /* Board5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71D19D21941007C0F00 /* Board5@2x.png */; };
+		C33CC73719D21941007C0F00 /* Board5button.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71E19D21941007C0F00 /* Board5button.png */; };
+		C33CC73819D21941007C0F00 /* Solutions.plist in Resources */ = {isa = PBXBuildFile; fileRef = C33CC71F19D21941007C0F00 /* Solutions.plist */; };
+		C33CC73919D21941007C0F00 /* tileF@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC72019D21941007C0F00 /* tileF@2x.png */; };
+		C33CC73A19D21941007C0F00 /* tileI@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC72119D21941007C0F00 /* tileI@2x.png */; };
+		C33CC73B19D21941007C0F00 /* tileL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC72219D21941007C0F00 /* tileL@2x.png */; };
+		C33CC73C19D21941007C0F00 /* tileN@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC72319D21941007C0F00 /* tileN@2x.png */; };
+		C33CC73D19D21941007C0F00 /* tileP@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC72419D21941007C0F00 /* tileP@2x.png */; };
+		C33CC73E19D21941007C0F00 /* tileT@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC72519D21941007C0F00 /* tileT@2x.png */; };
+		C33CC73F19D21941007C0F00 /* tileU@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC72619D21941007C0F00 /* tileU@2x.png */; };
+		C33CC74019D21941007C0F00 /* tileV@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC72719D21941007C0F00 /* tileV@2x.png */; };
+		C33CC74119D21941007C0F00 /* tileW@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC72819D21941007C0F00 /* tileW@2x.png */; };
+		C33CC74219D21941007C0F00 /* tileX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC72919D21941007C0F00 /* tileX@2x.png */; };
+		C33CC74319D21941007C0F00 /* tileY@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC72A19D21941007C0F00 /* tileY@2x.png */; };
+		C33CC74419D21941007C0F00 /* tileZ@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C33CC72B19D21941007C0F00 /* tileZ@2x.png */; };
+		C3955EBC19CE57D7008EE198 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3955EB519CE57D7008EE198 /* InfoPlist.strings */; };
+		C3955EC419CE5BBA008EE198 /* blueframeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C3955EC319CE5BBA008EE198 /* blueframeImage.png */; };
+		C3ABD69E19D51F71008E780A /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3ABD69D19D51F71008E780A /* beach.jpg */; };
+		C3ABD6A019D51F89008E780A /* wb.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C3ABD69F19D51F89008E780A /* wb.jpeg */; };
+		C3ABD6A219D51F93008E780A /* wooden.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C3ABD6A119D51F93008E780A /* wooden.jpeg */; };
+		C3E1872F19CA42E600CE3615 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E1872E19CA42E600CE3615 /* Foundation.framework */; };
+		C3E1873119CA42E600CE3615 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E1873019CA42E600CE3615 /* CoreGraphics.framework */; };
+		C3E1873319CA42E600CE3615 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E1873219CA42E600CE3615 /* UIKit.framework */; };
+		C3E1873919CA42E600CE3615 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3E1873719CA42E600CE3615 /* InfoPlist.strings */; };
+		C3E1873B19CA42E600CE3615 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E1873A19CA42E600CE3615 /* main.m */; };
+		C3E1873F19CA42E600CE3615 /* BRDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E1873E19CA42E600CE3615 /* BRDAppDelegate.m */; };
+		C3E1874E19CA42E600CE3615 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E1874D19CA42E600CE3615 /* XCTest.framework */; };
+		C3E1874F19CA42E600CE3615 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E1872E19CA42E600CE3615 /* Foundation.framework */; };
+		C3E1875019CA42E600CE3615 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E1873219CA42E600CE3615 /* UIKit.framework */; };
+		C3E1875819CA42E600CE3615 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3E1875619CA42E600CE3615 /* InfoPlist.strings */; };
+		C3E1875A19CA42E600CE3615 /* Pentominoes_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E1875919CA42E600CE3615 /* Pentominoes_GameTests.m */; };
+		C3E1879919CA435E00CE3615 /* BRDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E1879619CA435E00CE3615 /* BRDViewController.m */; };
+		C3E1879F19CA436500CE3615 /* BRDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E1879B19CA436500CE3615 /* BRDModel.m */; };
+		C3E187A019CA436500CE3615 /* BRDPlayingPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E1879D19CA436500CE3615 /* BRDPlayingPiece.m */; };
+		C3E187A419CA436B00CE3615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E187A219CA436B00CE3615 /* Main.storyboard */; };
+		C3E187A619CA437900CE3615 /* matrixBackgroundImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3E187A519CA437900CE3615 /* matrixBackgroundImage.jpg */; };
+		C3E187A819CA438B00CE3615 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E187A719CA438B00CE3615 /* Images.xcassets */; };
+		C3E187AC19CB8BA900CE3615 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E187AB19CB8BA900CE3615 /* QuartzCore.framework */; };
+		C3E187AE19CB8BB400CE3615 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E187AD19CB8BB400CE3615 /* CFNetwork.framework */; };
+		C3E187B119CB904600CE3615 /* BRDInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E187B019CB904600CE3615 /* BRDInfoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3E1875119CA42E600CE3615 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3E1872319CA42E600CE3615 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3E1872A19CA42E600CE3615;
+			remoteInfo = "Pentominoes Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C33CC71319D21941007C0F00 /* Board0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board0.png; sourceTree = "<group>"; };
+		C33CC71419D21941007C0F00 /* Board0button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board0button.png; sourceTree = "<group>"; };
+		C33CC71519D21941007C0F00 /* Board1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Board1@2x.png"; sourceTree = "<group>"; };
+		C33CC71619D21941007C0F00 /* Board1button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board1button.png; sourceTree = "<group>"; };
+		C33CC71719D21941007C0F00 /* Board2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Board2@2x.png"; sourceTree = "<group>"; };
+		C33CC71819D21941007C0F00 /* Board2button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board2button.png; sourceTree = "<group>"; };
+		C33CC71919D21941007C0F00 /* Board3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Board3@2x.png"; sourceTree = "<group>"; };
+		C33CC71A19D21941007C0F00 /* Board3button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board3button.png; sourceTree = "<group>"; };
+		C33CC71B19D21941007C0F00 /* Board4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Board4@2x.png"; sourceTree = "<group>"; };
+		C33CC71C19D21941007C0F00 /* Board4button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board4button.png; sourceTree = "<group>"; };
+		C33CC71D19D21941007C0F00 /* Board5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Board5@2x.png"; sourceTree = "<group>"; };
+		C33CC71E19D21941007C0F00 /* Board5button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board5button.png; sourceTree = "<group>"; };
+		C33CC71F19D21941007C0F00 /* Solutions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Solutions.plist; sourceTree = "<group>"; };
+		C33CC72019D21941007C0F00 /* tileF@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileF@2x.png"; sourceTree = "<group>"; };
+		C33CC72119D21941007C0F00 /* tileI@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileI@2x.png"; sourceTree = "<group>"; };
+		C33CC72219D21941007C0F00 /* tileL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileL@2x.png"; sourceTree = "<group>"; };
+		C33CC72319D21941007C0F00 /* tileN@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileN@2x.png"; sourceTree = "<group>"; };
+		C33CC72419D21941007C0F00 /* tileP@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileP@2x.png"; sourceTree = "<group>"; };
+		C33CC72519D21941007C0F00 /* tileT@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileT@2x.png"; sourceTree = "<group>"; };
+		C33CC72619D21941007C0F00 /* tileU@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileU@2x.png"; sourceTree = "<group>"; };
+		C33CC72719D21941007C0F00 /* tileV@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileV@2x.png"; sourceTree = "<group>"; };
+		C33CC72819D21941007C0F00 /* tileW@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileW@2x.png"; sourceTree = "<group>"; };
+		C33CC72919D21941007C0F00 /* tileX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileX@2x.png"; sourceTree = "<group>"; };
+		C33CC72A19D21941007C0F00 /* tileY@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileY@2x.png"; sourceTree = "<group>"; };
+		C33CC72B19D21941007C0F00 /* tileZ@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileZ@2x.png"; sourceTree = "<group>"; };
+		C3955EB619CE57D7008EE198 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		C3955EC319CE5BBA008EE198 /* blueframeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueframeImage.png; sourceTree = "<group>"; };
+		C3ABD69D19D51F71008E780A /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
+		C3ABD69F19D51F89008E780A /* wb.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wb.jpeg; sourceTree = "<group>"; };
+		C3ABD6A119D51F93008E780A /* wooden.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wooden.jpeg; sourceTree = "<group>"; };
+		C3E1872B19CA42E600CE3615 /* Pentominoes Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pentominoes Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E1872E19CA42E600CE3615 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3E1873019CA42E600CE3615 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3E1873219CA42E600CE3615 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3E1873619CA42E600CE3615 /* Pentominoes Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pentominoes Game-Info.plist"; sourceTree = "<group>"; };
+		C3E1873819CA42E600CE3615 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3E1873A19CA42E600CE3615 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3E1873C19CA42E600CE3615 /* Pentominoes Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pentominoes Game-Prefix.pch"; sourceTree = "<group>"; };
+		C3E1873D19CA42E600CE3615 /* BRDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRDAppDelegate.h; sourceTree = "<group>"; };
+		C3E1873E19CA42E600CE3615 /* BRDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRDAppDelegate.m; sourceTree = "<group>"; };
+		C3E1874C19CA42E600CE3615 /* Pentominoes GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pentominoes GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E1874D19CA42E600CE3615 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C3E1875519CA42E600CE3615 /* Pentominoes GameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pentominoes GameTests-Info.plist"; sourceTree = "<group>"; };
+		C3E1875719CA42E600CE3615 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3E1875919CA42E600CE3615 /* Pentominoes_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pentominoes_GameTests.m; sourceTree = "<group>"; };
+		C3E1879619CA435E00CE3615 /* BRDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRDViewController.m; sourceTree = "<group>"; };
+		C3E1879719CA435E00CE3615 /* BRDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDViewController.h; sourceTree = "<group>"; };
+		C3E1879A19CA436500CE3615 /* BRDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDModel.h; sourceTree = "<group>"; };
+		C3E1879B19CA436500CE3615 /* BRDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRDModel.m; sourceTree = "<group>"; };
+		C3E1879C19CA436500CE3615 /* BRDPlayingPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDPlayingPiece.h; sourceTree = "<group>"; };
+		C3E1879D19CA436500CE3615 /* BRDPlayingPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRDPlayingPiece.m; sourceTree = "<group>"; };
+		C3E187A119CA436B00CE3615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3E187A519CA437900CE3615 /* matrixBackgroundImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = matrixBackgroundImage.jpg; path = "../../Assignment 2: Pentominoes/Assignment 2: Pentominoes/matrixBackgroundImage.jpg"; sourceTree = "<group>"; };
+		C3E187A719CA438B00CE3615 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../Assignment 2: Pentominoes/Assignment 2: Pentominoes/Images.xcassets"; sourceTree = "<group>"; };
+		C3E187A919CB8B3400CE3615 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		C3E187AB19CB8BA900CE3615 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C3E187AD19CB8BB400CE3615 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C3E187AF19CB904600CE3615 /* BRDInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRDInfoViewController.h; path = "Pentominoes Game/BRDInfoViewController.h"; sourceTree = SOURCE_ROOT; };
+		C3E187B019CB904600CE3615 /* BRDInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRDInfoViewController.m; path = "Pentominoes Game/BRDInfoViewController.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3E1872819CA42E600CE3615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E187AE19CB8BB400CE3615 /* CFNetwork.framework in Frameworks */,
+				C3E187AC19CB8BA900CE3615 /* QuartzCore.framework in Frameworks */,
+				C3E1873119CA42E600CE3615 /* CoreGraphics.framework in Frameworks */,
+				C3E1873319CA42E600CE3615 /* UIKit.framework in Frameworks */,
+				C3E1872F19CA42E600CE3615 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E1874919CA42E600CE3615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E1874E19CA42E600CE3615 /* XCTest.framework in Frameworks */,
+				C3E1875019CA42E600CE3615 /* UIKit.framework in Frameworks */,
+				C3E1874F19CA42E600CE3615 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33CC71219D21941007C0F00 /* Pentominoes Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C33CC71319D21941007C0F00 /* Board0.png */,
+				C33CC71419D21941007C0F00 /* Board0button.png */,
+				C33CC71519D21941007C0F00 /* Board1@2x.png */,
+				C33CC71619D21941007C0F00 /* Board1button.png */,
+				C33CC71719D21941007C0F00 /* Board2@2x.png */,
+				C33CC71819D21941007C0F00 /* Board2button.png */,
+				C33CC71919D21941007C0F00 /* Board3@2x.png */,
+				C33CC71A19D21941007C0F00 /* Board3button.png */,
+				C33CC71B19D21941007C0F00 /* Board4@2x.png */,
+				C33CC71C19D21941007C0F00 /* Board4button.png */,
+				C33CC71D19D21941007C0F00 /* Board5@2x.png */,
+				C33CC71E19D21941007C0F00 /* Board5button.png */,
+				C33CC71F19D21941007C0F00 /* Solutions.plist */,
+				C33CC72019D21941007C0F00 /* tileF@2x.png */,
+				C33CC72119D21941007C0F00 /* tileI@2x.png */,
+				C33CC72219D21941007C0F00 /* tileL@2x.png */,
+				C33CC72319D21941007C0F00 /* tileN@2x.png */,
+				C33CC72419D21941007C0F00 /* tileP@2x.png */,
+				C33CC72519D21941007C0F00 /* tileT@2x.png */,
+				C33CC72619D21941007C0F00 /* tileU@2x.png */,
+				C33CC72719D21941007C0F00 /* tileV@2x.png */,
+				C33CC72819D21941007C0F00 /* tileW@2x.png */,
+				C33CC72919D21941007C0F00 /* tileX@2x.png */,
+				C33CC72A19D21941007C0F00 /* tileY@2x.png */,
+				C33CC72B19D21941007C0F00 /* tileZ@2x.png */,
+			);
+			path = "Pentominoes Assets";
+			sourceTree = SOURCE_ROOT;
+		};
+		C3955EB419CE57D7008EE198 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C3955EB519CE57D7008EE198 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		C3E1872219CA42E600CE3615 = {
+			isa = PBXGroup;
+			children = (
+				C3E1873419CA42E600CE3615 /* Pentominoes Game */,
+				C3E1875319CA42E600CE3615 /* Pentominoes GameTests */,
+				C3E1872D19CA42E600CE3615 /* Frameworks */,
+				C3E1872C19CA42E600CE3615 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3E1872C19CA42E600CE3615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3E1872B19CA42E600CE3615 /* Pentominoes Game.app */,
+				C3E1874C19CA42E600CE3615 /* Pentominoes GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3E1872D19CA42E600CE3615 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E187AD19CB8BB400CE3615 /* CFNetwork.framework */,
+				C3E187AB19CB8BA900CE3615 /* QuartzCore.framework */,
+				C3E187A919CB8B3400CE3615 /* Reveal.framework */,
+				C3E1872E19CA42E600CE3615 /* Foundation.framework */,
+				C3E1873019CA42E600CE3615 /* CoreGraphics.framework */,
+				C3E1873219CA42E600CE3615 /* UIKit.framework */,
+				C3E1874D19CA42E600CE3615 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3E1873419CA42E600CE3615 /* Pentominoes Game */ = {
+			isa = PBXGroup;
+			children = (
+				C3E187A319CA436B00CE3615 /* View */,
+				C3E1879E19CA436500CE3615 /* Model */,
+				C3E1879819CA435E00CE3615 /* Controllers */,
+				C33CC71219D21941007C0F00 /* Pentominoes Assets */,
+				C3E1873519CA42E600CE3615 /* Supporting Files */,
+			);
+			path = "Pentominoes Game";
+			sourceTree = "<group>";
+		};
+		C3E1873519CA42E600CE3615 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3955EB419CE57D7008EE198 /* en.lproj */,
+				C3955EC319CE5BBA008EE198 /* blueframeImage.png */,
+				C3E1873E19CA42E600CE3615 /* BRDAppDelegate.m */,
+				C3E1873D19CA42E600CE3615 /* BRDAppDelegate.h */,
+				C3E187A719CA438B00CE3615 /* Images.xcassets */,
+				C3ABD69F19D51F89008E780A /* wb.jpeg */,
+				C3ABD69D19D51F71008E780A /* beach.jpg */,
+				C3ABD6A119D51F93008E780A /* wooden.jpeg */,
+				C3E187A519CA437900CE3615 /* matrixBackgroundImage.jpg */,
+				C3E1873619CA42E600CE3615 /* Pentominoes Game-Info.plist */,
+				C3E1873719CA42E600CE3615 /* InfoPlist.strings */,
+				C3E1873A19CA42E600CE3615 /* main.m */,
+				C3E1873C19CA42E600CE3615 /* Pentominoes Game-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3E1875319CA42E600CE3615 /* Pentominoes GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3E1875919CA42E600CE3615 /* Pentominoes_GameTests.m */,
+				C3E1875419CA42E600CE3615 /* Supporting Files */,
+			);
+			path = "Pentominoes GameTests";
+			sourceTree = "<group>";
+		};
+		C3E1875419CA42E600CE3615 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3E1875519CA42E600CE3615 /* Pentominoes GameTests-Info.plist */,
+				C3E1875619CA42E600CE3615 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3E1879819CA435E00CE3615 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3E187AF19CB904600CE3615 /* BRDInfoViewController.h */,
+				C3E187B019CB904600CE3615 /* BRDInfoViewController.m */,
+				C3E1879619CA435E00CE3615 /* BRDViewController.m */,
+				C3E1879719CA435E00CE3615 /* BRDViewController.h */,
+			);
+			name = Controllers;
+			path = "../../Assignment 2: Pentominoes/Assignment 2: Pentominoes";
+			sourceTree = "<group>";
+		};
+		C3E1879E19CA436500CE3615 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3E1879A19CA436500CE3615 /* BRDModel.h */,
+				C3E1879B19CA436500CE3615 /* BRDModel.m */,
+			);
+			name = Model;
+			path = "../../Assignment 2: Pentominoes/Assignment 2: Pentominoes";
+			sourceTree = "<group>";
+		};
+		C3E187A319CA436B00CE3615 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3E1879C19CA436500CE3615 /* BRDPlayingPiece.h */,
+				C3E1879D19CA436500CE3615 /* BRDPlayingPiece.m */,
+				C3E187A219CA436B00CE3615 /* Main.storyboard */,
+			);
+			name = View;
+			path = "../../Assignment 2: Pentominoes/Assignment 2: Pentominoes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3E1872A19CA42E600CE3615 /* Pentominoes Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E1875D19CA42E600CE3615 /* Build configuration list for PBXNativeTarget "Pentominoes Game" */;
+			buildPhases = (
+				C3E1872719CA42E600CE3615 /* Sources */,
+				C3E1872819CA42E600CE3615 /* Frameworks */,
+				C3E1872919CA42E600CE3615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pentominoes Game";
+			productName = "Pentominoes Game";
+			productReference = C3E1872B19CA42E600CE3615 /* Pentominoes Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3E1874B19CA42E600CE3615 /* Pentominoes GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E1876019CA42E600CE3615 /* Build configuration list for PBXNativeTarget "Pentominoes GameTests" */;
+			buildPhases = (
+				C3E1874819CA42E600CE3615 /* Sources */,
+				C3E1874919CA42E600CE3615 /* Frameworks */,
+				C3E1874A19CA42E600CE3615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3E1875219CA42E600CE3615 /* PBXTargetDependency */,
+			);
+			name = "Pentominoes GameTests";
+			productName = "Pentominoes GameTests";
+			productReference = C3E1874C19CA42E600CE3615 /* Pentominoes GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3E1872319CA42E600CE3615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BRD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bryan Dickens";
+				TargetAttributes = {
+					C3E1874B19CA42E600CE3615 = {
+						TestTargetID = C3E1872A19CA42E600CE3615;
+					};
+				};
+			};
+			buildConfigurationList = C3E1872619CA42E600CE3615 /* Build configuration list for PBXProject "Pentominoes Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3E1872219CA42E600CE3615;
+			productRefGroup = C3E1872C19CA42E600CE3615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3E1872A19CA42E600CE3615 /* Pentominoes Game */,
+				C3E1874B19CA42E600CE3615 /* Pentominoes GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3E1872919CA42E600CE3615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33CC74119D21941007C0F00 /* tileW@2x.png in Resources */,
+				C33CC73C19D21941007C0F00 /* tileN@2x.png in Resources */,
+				C33CC73A19D21941007C0F00 /* tileI@2x.png in Resources */,
+				C33CC73319D21941007C0F00 /* Board3button.png in Resources */,
+				C3955EBC19CE57D7008EE198 /* InfoPlist.strings in Resources */,
+				C3ABD6A219D51F93008E780A /* wooden.jpeg in Resources */,
+				C33CC73719D21941007C0F00 /* Board5button.png in Resources */,
+				C33CC73519D21941007C0F00 /* Board4button.png in Resources */,
+				C33CC73E19D21941007C0F00 /* tileT@2x.png in Resources */,
+				C33CC73619D21941007C0F00 /* Board5@2x.png in Resources */,
+				C3ABD6A019D51F89008E780A /* wb.jpeg in Resources */,
+				C33CC73919D21941007C0F00 /* tileF@2x.png in Resources */,
+				C3E187A819CA438B00CE3615 /* Images.xcassets in Resources */,
+				C3ABD69E19D51F71008E780A /* beach.jpg in Resources */,
+				C33CC74419D21941007C0F00 /* tileZ@2x.png in Resources */,
+				C33CC74019D21941007C0F00 /* tileV@2x.png in Resources */,
+				C33CC72F19D21941007C0F00 /* Board1button.png in Resources */,
+				C3E187A619CA437900CE3615 /* matrixBackgroundImage.jpg in Resources */,
+				C33CC74319D21941007C0F00 /* tileY@2x.png in Resources */,
+				C33CC73419D21941007C0F00 /* Board4@2x.png in Resources */,
+				C33CC74219D21941007C0F00 /* tileX@2x.png in Resources */,
+				C33CC73019D21941007C0F00 /* Board2@2x.png in Resources */,
+				C33CC72E19D21941007C0F00 /* Board1@2x.png in Resources */,
+				C33CC72D19D21941007C0F00 /* Board0button.png in Resources */,
+				C33CC73219D21941007C0F00 /* Board3@2x.png in Resources */,
+				C3E1873919CA42E600CE3615 /* InfoPlist.strings in Resources */,
+				C33CC73B19D21941007C0F00 /* tileL@2x.png in Resources */,
+				C33CC73D19D21941007C0F00 /* tileP@2x.png in Resources */,
+				C33CC73119D21941007C0F00 /* Board2button.png in Resources */,
+				C3E187A419CA436B00CE3615 /* Main.storyboard in Resources */,
+				C3955EC419CE5BBA008EE198 /* blueframeImage.png in Resources */,
+				C33CC73F19D21941007C0F00 /* tileU@2x.png in Resources */,
+				C33CC72C19D21941007C0F00 /* Board0.png in Resources */,
+				C33CC73819D21941007C0F00 /* Solutions.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E1874A19CA42E600CE3615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E1875819CA42E600CE3615 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3E1872719CA42E600CE3615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E1879F19CA436500CE3615 /* BRDModel.m in Sources */,
+				C3E1873B19CA42E600CE3615 /* main.m in Sources */,
+				C3E187A019CA436500CE3615 /* BRDPlayingPiece.m in Sources */,
+				C3E1879919CA435E00CE3615 /* BRDViewController.m in Sources */,
+				C3E1873F19CA42E600CE3615 /* BRDAppDelegate.m in Sources */,
+				C3E187B119CB904600CE3615 /* BRDInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E1874819CA42E600CE3615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E1875A19CA42E600CE3615 /* Pentominoes_GameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3E1875219CA42E600CE3615 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3E1872A19CA42E600CE3615 /* Pentominoes Game */;
+			targetProxy = C3E1875119CA42E600CE3615 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3955EB519CE57D7008EE198 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3955EB619CE57D7008EE198 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3E1873719CA42E600CE3615 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E1873819CA42E600CE3615 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3E1875619CA42E600CE3615 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E1875719CA42E600CE3615 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3E187A219CA436B00CE3615 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E187A119CA436B00CE3615 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3E1875B19CA42E600CE3615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C3E1875C19CA42E600CE3615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E1875E19CA42E600CE3615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pentominoes Game/Pentominoes Game-Prefix.pch";
+				INFOPLIST_FILE = "Pentominoes Game/Pentominoes Game-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3E1875F19CA42E600CE3615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pentominoes Game/Pentominoes Game-Prefix.pch";
+				INFOPLIST_FILE = "Pentominoes Game/Pentominoes Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3E1876119CA42E600CE3615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pentominoes Game.app/Pentominoes Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pentominoes Game/Pentominoes Game-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pentominoes GameTests/Pentominoes GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C3E1876219CA42E600CE3615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pentominoes Game.app/Pentominoes Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pentominoes Game/Pentominoes Game-Prefix.pch";
+				INFOPLIST_FILE = "Pentominoes GameTests/Pentominoes GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3E1872619CA42E600CE3615 /* Build configuration list for PBXProject "Pentominoes Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E1875B19CA42E600CE3615 /* Debug */,
+				C3E1875C19CA42E600CE3615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E1875D19CA42E600CE3615 /* Build configuration list for PBXNativeTarget "Pentominoes Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E1875E19CA42E600CE3615 /* Debug */,
+				C3E1875F19CA42E600CE3615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E1876019CA42E600CE3615 /* Build configuration list for PBXNativeTarget "Pentominoes GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E1876119CA42E600CE3615 /* Debug */,
+				C3E1876219CA42E600CE3615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3E1872319CA42E600CE3615 /* Project object */;
+}

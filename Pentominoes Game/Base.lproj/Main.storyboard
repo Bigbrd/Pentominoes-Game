@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="Zy1-MJ-ffd">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="1xx-79-Th0">
+            <objects>
+                <viewController id="Zy1-MJ-ffd" customClass="BRDViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5jO-CF-UNW">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="Cu7-YO-VAp">
+                                <rect key="frame" x="40" y="590" width="688" height="390"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Rdp-0n-Em3">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PlayingPiece" id="iKc-bf-HFm">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="Zy1-MJ-ffd" id="EwA-LM-jKP"/>
+                                    <outlet property="delegate" destination="Zy1-MJ-ffd" id="OEQ-Vq-WAE"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jFY-xl-IK0">
+                                <rect key="frame" x="40" y="526" width="105" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.81429368622448983" green="0.14568292131241234" blue="0.74056237302670214" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonPressed:" destination="Zy1-MJ-ffd" eventType="touchUpInside" id="DNx-0u-JVo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7u4-Lp-qCU">
+                                <rect key="frame" x="623" y="526" width="105" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Solve">
+                                    <color key="titleColor" red="0.81429368622448983" green="0.14568292131241234" blue="0.74056237302670214" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="solveButtonPressed:" destination="Zy1-MJ-ffd" eventType="touchUpInside" id="TUM-j8-3eD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" id="SJM-fj-gFa" userLabel="Button - Board0">
+                                <rect key="frame" x="40" y="96" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <state key="normal" image="Board0button.png"/>
+                                <connections>
+                                    <action selector="switchBoardButtonPressed:" destination="Zy1-MJ-ffd" eventType="touchUpInside" id="xu9-Et-uzT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RWK-Yh-v1a" userLabel="Button - Board1">
+                                <rect key="frame" x="40" y="253" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".LucidaGrandeUI" family=".Lucida Grande UI" pointSize="11"/>
+                                <state key="normal" image="Board1button.png"/>
+                                <connections>
+                                    <action selector="switchBoardButtonPressed:" destination="Zy1-MJ-ffd" eventType="touchUpInside" id="xmQ-73-NwW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="STK-j2-Ggv" userLabel="Button - Board2">
+                                <rect key="frame" x="40" y="411" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Board2button.png">
+                                    <attributedString key="attributedTitle"/>
+                                </state>
+                                <connections>
+                                    <action selector="switchBoardButtonPressed:" destination="Zy1-MJ-ffd" eventType="touchUpInside" id="gsd-mb-zDm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="lp8-VG-2FF" userLabel="Button - Board3">
+                                <rect key="frame" x="623" y="96" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".LucidaGrandeUI" family=".Lucida Grande UI" pointSize="11"/>
+                                <state key="normal" image="Board3button.png"/>
+                                <connections>
+                                    <action selector="switchBoardButtonPressed:" destination="Zy1-MJ-ffd" eventType="touchUpInside" id="2w6-Qq-keD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3ph-y7-M2H" userLabel="Button - Board4">
+                                <rect key="frame" x="623" y="253" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".LucidaGrandeUI" family=".Lucida Grande UI" pointSize="11"/>
+                                <state key="normal" image="Board4button.png"/>
+                                <connections>
+                                    <action selector="switchBoardButtonPressed:" destination="Zy1-MJ-ffd" eventType="touchUpInside" id="ePZ-cV-8cm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Con-qn-EPS" userLabel="Button - Board5">
+                                <rect key="frame" x="623" y="411" width="105" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".LucidaGrandeUI" family=".Lucida Grande UI" pointSize="11"/>
+                                <state key="normal" image="Board5button.png"/>
+                                <connections>
+                                    <action selector="switchBoardButtonPressed:" destination="Zy1-MJ-ffd" eventType="touchUpInside" id="9vq-PK-SQm"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Board0.png" id="x2X-NM-Kmj" userLabel="Image View - MainBoard">
+                                <rect key="frame" x="174" y="96" width="420" height="420"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DirectionsLabel" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aMz-rD-be8">
+                                <rect key="frame" x="174" y="524" width="420" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pentominoes" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="93A-te-gIp">
+                                <rect key="frame" x="231" y="20" width="306" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="r3n-Fl-bf8">
+                                <rect key="frame" x="664" y="34" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yic-D3-Yj8" kind="modal" identifier="InfoSegue" modalPresentationStyle="formSheet" id="gDb-r0-nAC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.74523731115318859" green="0.75709943048861572" blue="0.81782126913265307" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="board0Button" destination="SJM-fj-gFa" id="cCz-M4-RAt"/>
+                        <outlet property="board1Button" destination="RWK-Yh-v1a" id="MV1-cv-6Tw"/>
+                        <outlet property="board2Button" destination="STK-j2-Ggv" id="oRd-ci-AoE"/>
+                        <outlet property="board3Button" destination="lp8-VG-2FF" id="gG7-nb-Wm7"/>
+                        <outlet property="board4Button" destination="3ph-y7-M2H" id="eDa-v7-F4X"/>
+                        <outlet property="board5Button" destination="Con-qn-EPS" id="gNC-j5-i3d"/>
+                        <outlet property="directionsLabel" destination="aMz-rD-be8" id="l0d-Ef-opv"/>
+                        <outlet property="mainBoardImageView" destination="x2X-NM-Kmj" id="U32-Nb-dQJ"/>
+                        <outlet property="playingPiecesCollectionView" destination="Cu7-YO-VAp" id="Pzg-lS-eVx"/>
+                        <outlet property="resetButton" destination="jFY-xl-IK0" id="Tn0-zb-hfu"/>
+                        <outlet property="solveButton" destination="7u4-Lp-qCU" id="Tbm-DL-g7q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CQG-We-bAL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="688" y="-80"/>
+        </scene>
+        <!--Info View Controller - Info Page-->
+        <scene sceneID="qan-h5-mGq">
+            <objects>
+                <viewController title="Info Page" id="yic-D3-Yj8" customClass="BRDInfoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qmg-4V-V7X">
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="620"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TfD-rn-l5M">
+                                <rect key="frame" x="31" y="99" width="478" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Cg-4Z-O2c">
+                                <rect key="frame" x="31" y="291" width="478" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Signature" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yJe-I1-msw">
+                                <rect key="frame" x="31" y="455" width="478" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zqI-cL-ayh">
+                                <rect key="frame" x="192" y="538" width="156" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Go Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissByCompletion:" destination="yic-D3-Yj8" eventType="touchUpInside" id="UuJ-0O-XYG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="768" height="1024"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="TfD-rn-l5M" id="KT6-56-hhy"/>
+                        <outlet property="directionsLabel" destination="1Cg-4Z-O2c" id="qk8-6I-fO3"/>
+                        <outlet property="signatureLabel" destination="yJe-I1-msw" id="8B5-w2-HkI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cFW-Fi-MdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1955" y="32"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Board0.png" width="840" height="840"/>
+        <image name="Board0button.png" width="105" height="105"/>
+        <image name="Board1button.png" width="105" height="105"/>
+        <image name="Board2button.png" width="105" height="105"/>
+        <image name="Board3button.png" width="105" height="105"/>
+        <image name="Board4button.png" width="105" height="105"/>
+        <image name="Board5button.png" width="105" height="105"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
